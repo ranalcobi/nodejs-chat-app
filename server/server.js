@@ -1,5 +1,3 @@
-require('./../config/config')
-
 const path = require('path');
 const express = require("express");
 
@@ -16,6 +14,3 @@ app.listen(port, () => {
 })
 
 
-console.log(__dirname + '/../public')
-
-console.log(publicPath)
